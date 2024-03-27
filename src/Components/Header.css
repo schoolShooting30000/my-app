@@ -1,0 +1,9 @@
+.navbar,
+.navbar-default {
+    background-image: linear-gradient(to bottom,#0c7ee7 0,#000000 100%) !important; /* override background image gradient w/ flat color */
+    font-family: 'Nunito', sans-serif;
+    color: #FFFFFF !important;
+    font-size: 18px;
+    font-weight: 600;
+    outline: none;
+}

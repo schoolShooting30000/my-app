@@ -1,5 +1,6 @@
 import React, { Component } from "react"
 import CarouselBox from "../Components/CarouselBox"
+import '../Pages/Home.css'
 import { CardGroup, CardImg, Container, Card, CardBody, CardTitle, CardText } from "react-bootstrap"
 
 export default class Home extends Component {
@@ -7,7 +8,7 @@ export default class Home extends Component {
         return (
             <div>
                 <CarouselBox />
-                <Container>
+                <Container className="conteiner">
                     <h2 className="text-center m-4">Наши особенности туров</h2>
                     <CardGroup style={{ width: '18rem' }} className="m-4">
                         <Card bg="success" text="light">

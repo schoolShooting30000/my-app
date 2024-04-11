@@ -2,11 +2,22 @@ import React, { Component } from "react"
 import CarouselBox from "../Components/CarouselBox"
 import '../Pages/Home.css'
 import { CardGroup, CardImg, Container, Card, CardBody, CardTitle, CardText } from "react-bootstrap"
+import background from "../assets/palms.jpg"
+import backgroundImage from "../assets/palms1.jpg"
+import palms1Img from "../assets/palms1.jpg"
 
 export default class Home extends Component {
     render() {
         return (
-            <div>
+            <div style={{ backgroundImage: `url(${background})` }}>
+                <Container className="containerImage">
+                <img 
+                        className="d-block w-100"
+                        src={ palms1Img }
+                        alt="palms1"
+                    />
+                    <h2>Добро пожаловать на наше турагентство "Песок в плавках"!</h2>
+                </Container>
                 <CarouselBox />
                 <Container className="conteiner">
                     <h2 className="text-center m-4">Наши особенности туров</h2>

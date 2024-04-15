@@ -11,7 +11,7 @@ export default class Home extends Component {
         return (
             <div style={{ backgroundImage: `url(${background})` }}>
                 <Container className="containerImage">
-                <img 
+                <backgroundImage 
                         className="d-block w-100"
                         src={ palms1Img }
                         alt="palms1"
